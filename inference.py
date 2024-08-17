@@ -46,7 +46,7 @@ def main(input_dir, output_dir, person_det_model, ppe_detection_model):
                 cv2.putText(img, f'{label} {confidence:.2f}', (full_px1, full_py1 - 10),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
 
-
+            cv2.rectangle(img, (x1, y1), (x2, y2), (255, 0, 0), 2) # Draw the person bounding box
         # Save the final annotated image
         output_img_path = os.path.join(output_dir, img_name)
         cv2.imwrite(output_img_path, img)
