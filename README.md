@@ -1,4 +1,3 @@
-Here’s a very basic and concise `README.md` content for your project:
 
 ---
 
