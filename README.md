@@ -23,7 +23,7 @@ Convert PascalVOC annotations to YOLOv8 format:
 python pascalVOC_to_yolo.py /path/to/pascalVOC_labels /path/to/output_dir
 ```
 
-** Note : The directory containing .xml files should have exact name 'pascalVOC_labels' **
+**Note : The directory containing .xml files should have exact name 'pascalVOC_labels'**
 
 
 ### 2. Model Training
